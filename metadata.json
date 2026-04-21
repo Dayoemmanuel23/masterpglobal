@@ -1,0 +1,6 @@
+{
+  "name": "Master P Global Transport App",
+  "description": "A web app for Master P Global allowing customers to track shipments, track the fleet, and book transport services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
