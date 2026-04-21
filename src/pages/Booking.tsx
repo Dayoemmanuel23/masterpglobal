@@ -197,7 +197,7 @@ export default function Booking() {
                       <input 
                         {...register("name", { required: true })}
                         className="w-full bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-navy focus:bg-white transition-colors"
-                        placeholder="John Doe"
+                        placeholder="Inyang Etim"
                       />
                     </div>
                     <div>
@@ -206,7 +206,7 @@ export default function Booking() {
                         type="email"
                         {...register("email", { required: true })}
                         className="w-full bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-navy focus:bg-white transition-colors"
-                        placeholder="john@example.com"
+                        placeholder="inyangetim02@example.com"
                       />
                     </div>
                   </div>

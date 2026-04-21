@@ -21,7 +21,7 @@ export default function Navbar() {
             <Link to="/" className="flex flex-col justify-center">
               <div className="flex items-center">
                 <img 
-                  src="/mp-logo.png" 
+                  src="/Masterp.png" 
                   alt="Master P Global Logo" 
                   className="h-16 w-auto object-contain"
                   onError={(e) => {
@@ -31,6 +31,9 @@ export default function Navbar() {
                     if (fallback) fallback.style.display = 'block';
                   }}
                 />
+                <span className="ml-3 text-3xl font-display font-black text-brand-navy tracking-tighter">
+                  MASTER P <span className="text-brand-accent">GLOBAL</span>
+                </span>
                 <span id="logo-fallback" className="text-3xl font-display font-black text-brand-navy tracking-tighter" style={{ display: 'none' }}>
                   MASTER P <span className="text-brand-accent">GLOBAL</span>
                 </span>
